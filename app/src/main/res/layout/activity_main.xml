@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/logo"
+    tools:context="com.example.android.test.MainActivity">
+
+
+    <Button
+        android:text="Restaurants"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:onClick="restaurants"
+        android:id="@+id/button"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:text="Hotels"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:onClick="hotels"
+        android:id="@+id/button2"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Entertainment"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:onClick="entertainment"
+        android:id="@+id/button3"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Facebook Chat Bot"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:onClick="facebook"
+        android:id="@+id/button4"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <SearchView
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
